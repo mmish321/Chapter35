@@ -1,0 +1,89 @@
+1. 
+ A. type of fruit
+ B. How much is in there
+ C. when is it made(canned)
+1.
+ A. if jar is empty
+ B. remove jam
+ 3. print the data
+
+ 2. Class Jam
+  Consturctors
+   Jam (String flavor,
+   String date,
+   int ounces)
+   Methods
+     public boolean empty()
+     public void spread (int amount)
+
+
+3. class JamTester 
+{
+	public static void main (String[] args) {
+      Jam jar = new Jam ("crab apple", "9/20/99",12);
+      jar.print();
+      if (jar.empty())
+      System.out.println ("cant")
+      else
+       {
+       jar.spread(1.0)
+
+       }
+
+
+	}
+
+}
+
+4. Class Jam
+ String
+ String
+ int
+}
+
+
+5.this.contents = contents;
+this.date = date;
+capacity = size;
+
+6. return (capacity == 0 )
+
+System.out.println (flavor + date + capacity)
+
+System.out.println("spreading + fluidOz)
+capacity = capacity - fluidOz;
+
+System.out.println(Spreading + capacity)
+capacity = 0;
+
+7.
+class Pantry
+Jam 
+Jam
+Jam
+public
+select(int JarNumber)
+spread (int amount)
+
+8.
+Jam
+Jam
+Jam
+Jam
+this
+this
+this
+selected = null;
+
+9.
+jar1
+jar2
+jar3
+
+10.
+== 1
+selected = jar1
+==2
+selected = jar2
+selected = jar3
+selected.spread(oz)
